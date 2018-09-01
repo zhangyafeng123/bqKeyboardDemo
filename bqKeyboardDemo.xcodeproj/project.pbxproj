@@ -7,14 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A060A3F54AE4B1E3826D0E52 /* Pods_bqKeyboardDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5C9CFA9DABAC4B2E310F07C /* Pods_bqKeyboardDemo.framework */; };
 		BA485A53213AE08600F05576 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA485A52213AE08600F05576 /* AppDelegate.swift */; };
 		BA485A55213AE08600F05576 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA485A54213AE08600F05576 /* ViewController.swift */; };
 		BA485A58213AE08600F05576 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA485A56213AE08600F05576 /* Main.storyboard */; };
 		BA485A5A213AE08800F05576 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA485A59213AE08800F05576 /* Assets.xcassets */; };
 		BA485A5D213AE08800F05576 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA485A5B213AE08800F05576 /* LaunchScreen.storyboard */; };
+		BA485A6A213AE0AD00F05576 /* ZYFEmoticonManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA485A65213AE0AC00F05576 /* ZYFEmoticonManager.swift */; };
+		BA485A6B213AE0AD00F05576 /* ZYFEmoticonPackage.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA485A67213AE0AC00F05576 /* ZYFEmoticonPackage.swift */; };
+		BA485A6C213AE0AD00F05576 /* ZYFEmoticon.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA485A68213AE0AC00F05576 /* ZYFEmoticon.swift */; };
+		BA485A6D213AE0AD00F05576 /* HMEmoticon.bundle in Resources */ = {isa = PBXBuildFile; fileRef = BA485A69213AE0AC00F05576 /* HMEmoticon.bundle */; };
+		BA485A74213AE6B500F05576 /* ZYFEmoticonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA485A73213AE6B500F05576 /* ZYFEmoticonView.swift */; };
+		BA485A76213AE6EF00F05576 /* ZYFEmoticonView.xib in Resources */ = {isa = PBXBuildFile; fileRef = BA485A75213AE6EF00F05576 /* ZYFEmoticonView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		31B3F133864ED42BEF8C23F4 /* Pods-bqKeyboardDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-bqKeyboardDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-bqKeyboardDemo/Pods-bqKeyboardDemo.release.xcconfig"; sourceTree = "<group>"; };
 		BA485A4F213AE08600F05576 /* bqKeyboardDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = bqKeyboardDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA485A52213AE08600F05576 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BA485A54213AE08600F05576 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +30,14 @@
 		BA485A59213AE08800F05576 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BA485A5C213AE08800F05576 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BA485A5E213AE08800F05576 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BA485A65213AE0AC00F05576 /* ZYFEmoticonManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZYFEmoticonManager.swift; sourceTree = "<group>"; };
+		BA485A67213AE0AC00F05576 /* ZYFEmoticonPackage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZYFEmoticonPackage.swift; sourceTree = "<group>"; };
+		BA485A68213AE0AC00F05576 /* ZYFEmoticon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZYFEmoticon.swift; sourceTree = "<group>"; };
+		BA485A69213AE0AC00F05576 /* HMEmoticon.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = HMEmoticon.bundle; sourceTree = "<group>"; };
+		BA485A73213AE6B500F05576 /* ZYFEmoticonView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZYFEmoticonView.swift; sourceTree = "<group>"; };
+		BA485A75213AE6EF00F05576 /* ZYFEmoticonView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZYFEmoticonView.xib; sourceTree = "<group>"; };
+		E5C9CFA9DABAC4B2E310F07C /* Pods_bqKeyboardDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_bqKeyboardDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F1CA14E334B1EDBAAAC4FDFA /* Pods-bqKeyboardDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-bqKeyboardDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-bqKeyboardDemo/Pods-bqKeyboardDemo.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +45,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A060A3F54AE4B1E3826D0E52 /* Pods_bqKeyboardDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9F14FFECBE8E7F6DD1721987 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F1CA14E334B1EDBAAAC4FDFA /* Pods-bqKeyboardDemo.debug.xcconfig */,
+				31B3F133864ED42BEF8C23F4 /* Pods-bqKeyboardDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		BA485A46213AE08600F05576 = {
 			isa = PBXGroup;
 			children = (
 				BA485A51213AE08600F05576 /* bqKeyboardDemo */,
 				BA485A50213AE08600F05576 /* Products */,
+				9F14FFECBE8E7F6DD1721987 /* Pods */,
+				FF6A1C8A0DFCB0CD2FA33053 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,6 +82,7 @@
 		BA485A51213AE08600F05576 /* bqKeyboardDemo */ = {
 			isa = PBXGroup;
 			children = (
+				BA485A64213AE0AC00F05576 /* Emoticon */,
 				BA485A52213AE08600F05576 /* AppDelegate.swift */,
 				BA485A54213AE08600F05576 /* ViewController.swift */,
 				BA485A56213AE08600F05576 /* Main.storyboard */,
@@ -64,6 +93,44 @@
 			path = bqKeyboardDemo;
 			sourceTree = "<group>";
 		};
+		BA485A64213AE0AC00F05576 /* Emoticon */ = {
+			isa = PBXGroup;
+			children = (
+				BA485A6E213AE1CE00F05576 /* View */,
+				BA485A65213AE0AC00F05576 /* ZYFEmoticonManager.swift */,
+				BA485A66213AE0AC00F05576 /* Model */,
+				BA485A69213AE0AC00F05576 /* HMEmoticon.bundle */,
+			);
+			name = Emoticon;
+			path = "../../XMGWB/XMGWB/XMGWB/Class/Tools(工具)/Emoticon";
+			sourceTree = "<group>";
+		};
+		BA485A66213AE0AC00F05576 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				BA485A67213AE0AC00F05576 /* ZYFEmoticonPackage.swift */,
+				BA485A68213AE0AC00F05576 /* ZYFEmoticon.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		BA485A6E213AE1CE00F05576 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				BA485A73213AE6B500F05576 /* ZYFEmoticonView.swift */,
+				BA485A75213AE6EF00F05576 /* ZYFEmoticonView.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		FF6A1C8A0DFCB0CD2FA33053 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E5C9CFA9DABAC4B2E310F07C /* Pods_bqKeyboardDemo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -71,9 +138,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BA485A61213AE08800F05576 /* Build configuration list for PBXNativeTarget "bqKeyboardDemo" */;
 			buildPhases = (
+				27B647F1BB30D0228F94DAC0 /* [CP] Check Pods Manifest.lock */,
 				BA485A4B213AE08600F05576 /* Sources */,
 				BA485A4C213AE08600F05576 /* Frameworks */,
 				BA485A4D213AE08600F05576 /* Resources */,
+				3D8A7431206457F49230BC35 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -122,20 +191,65 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BA485A6D213AE0AD00F05576 /* HMEmoticon.bundle in Resources */,
 				BA485A5D213AE08800F05576 /* LaunchScreen.storyboard in Resources */,
 				BA485A5A213AE08800F05576 /* Assets.xcassets in Resources */,
+				BA485A76213AE6EF00F05576 /* ZYFEmoticonView.xib in Resources */,
 				BA485A58213AE08600F05576 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		27B647F1BB30D0228F94DAC0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-bqKeyboardDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3D8A7431206457F49230BC35 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-bqKeyboardDemo/Pods-bqKeyboardDemo-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/YYModel/YYModel.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YYModel.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-bqKeyboardDemo/Pods-bqKeyboardDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		BA485A4B213AE08600F05576 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BA485A6A213AE0AD00F05576 /* ZYFEmoticonManager.swift in Sources */,
 				BA485A55213AE08600F05576 /* ViewController.swift in Sources */,
+				BA485A6B213AE0AD00F05576 /* ZYFEmoticonPackage.swift in Sources */,
+				BA485A6C213AE0AD00F05576 /* ZYFEmoticon.swift in Sources */,
+				BA485A74213AE6B500F05576 /* ZYFEmoticonView.swift in Sources */,
 				BA485A53213AE08600F05576 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -278,6 +392,7 @@
 		};
 		BA485A62213AE08800F05576 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F1CA14E334B1EDBAAAC4FDFA /* Pods-bqKeyboardDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -295,6 +410,7 @@
 		};
 		BA485A63213AE08800F05576 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 31B3F133864ED42BEF8C23F4 /* Pods-bqKeyboardDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

@@ -10,16 +10,24 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var textview: UITextView!
+    
+    lazy var emoticonView: ZYFEmoticonView = ZYFEmoticonView.inputView()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        //设置输入视图 -视图刚刚加载，还没有显示，系统默认的键盘还没有生效
+        //设置输入视图
+        textview.inputView = emoticonView
+        
+        textview.reloadInputViews()
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(animated)
+        
+        textview.becomeFirstResponder()
     }
-
 
 }
 
